@@ -8,7 +8,7 @@ export const HelloworldRouter = () => {
             status: 200,
             data: {
                 id: 123,
-                usernmae: 'hmd'
+                data: [1,2,3,4,5]
             }
         })
     })
