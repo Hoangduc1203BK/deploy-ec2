@@ -6,7 +6,10 @@ export const HelloworldRouter = () => {
     router.get('/', async (req, res) => {
         res.json({
             status: 200,
-            data: 'Hello world!'
+            data: {
+                id: 123,
+                usernmae: 'hmd'
+            }
         })
     })
     

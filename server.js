@@ -6,7 +6,7 @@ const Main = async () => {
   const port = 4000;
   app.use(Express.json());
 
-  app.use("/helloworld", HelloworldRouter());
+  app.use("/get-data", HelloworldRouter());
 
   app.listen(port, (err) => {
     if(err) throw err;
